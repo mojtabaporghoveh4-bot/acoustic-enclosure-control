@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acoustic-enclosure"
+version = "0.1.0"
+description = "Fully-coupled plate/cavity acoustics and PSO control — Python port of the paper-01 MATLAB code"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Mojtaba Porghoveh", email = "mojtabaporghoveh4@gmail.com" }]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "matplotlib>=3.6"]
+
+[project.optional-dependencies]
+data = ["pandas>=1.5", "openpyxl>=3.1"]
+test = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["acoustic_enclosure"]
