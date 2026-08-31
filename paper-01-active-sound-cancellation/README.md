@@ -150,5 +150,17 @@ affect the archived runs.
 
 ## Citing
 
-Cite the published paper (not this repository) for the method. This code is
+The coupled plate–cavity model implemented here (modal analysis, coupling
+matrix, fully-coupled pressure) is the analytical framework of:
+
+> Porghoveh, M., Heidari Shirazi, K., & Yildizdag, M. E. (2021).
+> *A fast analytical framework to identify acoustic field properties of
+> rectangular enclosures with a vibrating plate.*
+> Applied Acoustics, 182, 108185.
+> https://doi.org/10.1016/j.apacoust.2021.108185
+
+The PSO optimiser, the PSO/GA/BA/GWO convergence comparison and the
+microphone-array weighting are from the follow-on active sound control work.
+
+Cite the published paper(s) for the method, not this repository. Code is
 released under the MIT License.

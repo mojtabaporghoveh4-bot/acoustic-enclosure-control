@@ -37,6 +37,15 @@ acknowledged in each paper folder. Code is released under the MIT License (see
 [`LICENSE`](LICENSE)). The papers themselves are not redistributed here — cite
 the published versions.
 
+## Key reference
+
+The coupled plate–cavity model used throughout is the analytical framework of:
+
+> Porghoveh, M., Heidari Shirazi, K., & Yildizdag, M. E. (2021). *A fast
+> analytical framework to identify acoustic field properties of rectangular
+> enclosures with a vibrating plate.* Applied Acoustics, 182, 108185.
+> https://doi.org/10.1016/j.apacoust.2021.108185
+
 ## Author
 
 Mojtaba Porghoveh · <mojtabaporghoveh4@gmail.com>
